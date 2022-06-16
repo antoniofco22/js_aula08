@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Carros</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div id="all">
+			<div class="card">
+				<div class="elem">
+                    <label>Nome:
+                        <input type="text" id="name">
+                    </label>
+                    <label>Data de Nascimento:
+                        <input type="date" id="birthdate">
+                    </label>
+                    <label>Peso:
+                        <input type="text" id="weight">
+                    </label>
+                    <label>Altura(cm):
+                        <input type="text" id="height">
+                    </label>
+                    <label>Gênero:
+                        <select id="gender">
+                            <option value="Homem" selected>Homem</option>
+                            <option value="Mulher">Mulher</option>
+                        </select>
+                    </label>
+                    <button onclick="formulario()" class="but">Enviar</button>
+				</div>
+                <div class="elem" id="data">
+                    Resultado
+                </div>
+			</div>
+		</div>
+		<script></script>
+	</body>
+</html>
